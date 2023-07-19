@@ -5,6 +5,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
@@ -21,99 +22,211 @@
 
   <body>
 
-    <div class="welcome-page">
-      <span id="welcome-section">
-        <h1>Hello!</h1>
-        <h2>I am Patrick Williams</h2>
-        <h3>...an aspiring CS student at UTA</h3>
-      </span>
-      <span id="nav-list">
-        <nav id="navbar">
-          <ul>
-            <li><a href="#about">About me</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </span>
+    <br />
+
+    <div class="jumbotron jumbotron-fluid shadow">
+      <div class="container">
+      <hr class="my-4">
+      <br />
+      <h1 class="display-4">Hello! My name is Patrick Williams.</h1>
+      <p class="lead">I am an aspiring computer science student at UTA</p>
+      <br />
+      <hr class="my-4">
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
     </div>
 
-    <section id="about">
-    <div class="about-section">
-      <div class="about-info">
-        <span id="img">
-          <img id="img-source" src="/TempProfile.jpg" />
-        </span>
-        <span id="txt">
-          <h1>About Me!</h1>
-          <p>
-          Hey! My name is Patrick Williams. I'm a student at the University of Texas at Arlington pursuing
-          a Bachelor's degree in Computer Science. Truthfully, I was an electrical engineering major for the longest time, but then I
-          took my first programming class, and, well... Here we are! I fell in love with software engineering, especially the algorithm 
-          analysis side of things. I love learning all there is to learn through my classes and my own self study, which, up to this point,
-          has primarily been front-end web development -- which brought me to develop my own website. I have aspirations to become a 
-          full stack software engineer, but I also have a side-eye on AI and machine learning.
-          </p>
-          <p>
-          I grew up in a small town in Kentucky, and that was my stomping grounds until I was 18. I graduated from Meade County High School
-          and began my academic career at Purdue University in West Lafayette in 2019. The COVID-19 pandemic hit, and that's where I decided
-          to take a year break from school to see if that situation would die down -- but that didn't stop me from learning on my own! Eventually,
-          I moved to Texas, joined a company as a Geographic Information Systems intern in mid 2021, and started my education back up again at
-          Tarrant County College. 2 years later, I'm still at that company as a Business and Technology Specialist, continuing my education at
-          UTA, and incredibly excited about what's over the horizon. 
-          </p>
-          <p>
-          If you want to work with me, head down to my <a href="">contact page</a> -- I would love to hear from you!
-          </p>
-        </span>
+    <br />
+
+    <div class="container" id="about-me">
+      <h1 class="text-center">About me!</h1>
+      <p>
+        My name is Patrick Williams. I'm a student at the University of Texas at Arlington pursuing
+        a Bachelor's degree in Computer Science. Truthfully, I was an electrical engineering major for the longest time, but then I
+        took my first programming class, and, well... Here we are! I fell in love with software engineering, especially the algorithm 
+        analysis side of things. I love learning all there is to learn through my classes and my own self study, which, up to this point,
+        has primarily been front-end web development -- which brought me to develop my own website. I have aspirations to become a 
+        full stack software engineer, but I also have a side-eye on AI and machine learning.
+      </p>
+      <p>
+        I grew up in a small town in Kentucky, and that was my stomping grounds until I was 18. I graduated from Meade County High School
+        and began my academic career at Purdue University in West Lafayette in 2019. The COVID-19 pandemic hit, and that's where I decided
+        to take a year break from school to see if that situation would die down -- but that didn't stop me from learning on my own! Eventually,
+        I moved to Texas, joined a company as a Geographic Information Systems intern in mid 2021, and started my education back up again at
+        Tarrant County College. 2 years later, I'm still at that company as a Business and Technology Specialist, continuing my education at
+        UTA, and incredibly excited about what's over the horizon. 
+      </p>
+      <p>
+        If you want to work with me, head down to my <a href="">contact page</a> -- I would love to hear from you!
+      </p>
+      <h3>&nbsp TLDR...</h3>
+      <h4>
+        I am an incredibly motivated student with a zeal for innovation, learning, and creating.
+      </h4>
+      <br />
+    </div>
+
+    <br />
+
+    <div class="jumbotron jumbotron-fluid shadow" id="projects">
+      <div class="container">
+      <h1 class="text-center">Projects</h1>
+      <hr class="my-4">
+      <br />
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3 text-center">
+            <img src="download.svg" alt="card image cap" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Description</p>
+              <a href="#" class="btn btn-primary">View Full Project</a>
+              <a href="#" class="btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3 text-center">
+            <img src="download.svg" alt="card image cap" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Description</p>
+              <a href="#" class="btn btn-primary">View Full Project</a>
+              <a href="#" class="btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3 text-center">
+            <img src="download.svg" alt="card image cap" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Description</p>
+              <a href="#" class="btn btn-primary">View Full Project</a>
+              <a href="#" class="btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3 text-center">
+            <img src="download.svg" alt="card image cap" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Description</p>
+              <a href="#" class="btn btn-primary">View Full Project</a>
+              <a href="#" class="btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3 text-center">
+            <img src="download.svg" alt="card image cap" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Description</p>
+              <a href="#" class="btn btn-primary">View Full Project</a>
+              <a href="#" class="btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3 text-center">
+            <img src="download.svg" alt="card image cap" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Description</p>
+              <a href="#" class="btn btn-primary">View Full Project</a>
+              <a href="#" class="btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr class="my-4">
       </div>
     </div>
-    </section>
 
+    <br />
 
-    <section id="contact">
-    <div class="contact-page">
-      <span id="left-contact">
-        <h1>Let's collaborate!</h1>
-      </span>
-      <span id="right-contact">
-        <ul>
-          <li class="github">
-            <a href="https://github.com/Pat-TX" target="_blank">
-            <i class="fa-brands fa-github" style="color: #000000;"></i> GitHub
+    <div class="container text-center">
+      <h1>Contact me!</h1>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center">
+            <a href="https://github.com/Pat-TX" target="_blank" style="color: inherit; text-decoration: none;">
+              <i class="fa-brands fa-github" style="color: #000000; font-size: 2.5em;"></i>
+              <h1 class="display-4" style="font-size: 2.5em; display: inline-block;">&nbspGithub</h1>
+              </a>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-sm text-center">
+            <a href="https://www.linkedin.com/in/pwilliams-tx/" target="_blank" style="color: inherit; text-decoration: none;">
+            <i class="fa-brands fa-linkedin" style="color: #000000; font-size: 2.5em;"></i>
+            <h1 class="display-4" style="font-size: 2.5em; display: inline-block;">&nbspLinkedIn</h1>
             </a>
-          </li>
-          <li class="linkedin">
-            <a href="https://www.linkedin.com/in/pwilliams-tx/" target="_blank">
-            <i class="fa-brands fa-linkedin" style="color: #000000;"></i> LinkedIn
-            </a>
-          </li>
-          <li class="discord">
-            <a href="https://discord.com/users/320028698390822924" target="_blank">
-            <i class="fa-brands fa-discord" style="color: #000000;"></i> Discord
-            </a>
-          </li>
-          <li class="email">
-            <a href="mailto:williams.patrick.d@gmail.com">
-            <i class="fa-solid fa-at" style="color: #000000;"></i> Email me
-            </a>
-          </li>
-          <li class="phone">
-            <a href="tel:812-530-7417">
-              <i class="fa-solid fa-mobile" style="color: #000000;"></i> Text/Call me
-            </a>
-          </li>
-        </ul>
-      </span>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-sm text-center" style="text-decoration: none;">
+            <a href="https://discord.com/users/320028698390822924" target="_blank" style="color: inherit; text-decoration: none;">
+              <i class="fa-brands fa-discord" style="color: #000000; font-size: 2.5em;"></i>
+              <h1 class="display-4" style="font-size: 2.5em; display: inline-block;">&nbspDiscord</h1>
+              </a>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-sm text-center">
+            <a href="mailto:williams.patrick.d@gmail.com" style="color: inherit; text-decoration: none;">
+              <i class="fa-solid fa-at" style="color: #000000; font-size: 2.5em;"></i>
+              <h1 class="display-4" style="font-size: 2.5em; display: inline-block;">&nbspEmail</h1>
+              </a>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-sm text-center">
+              <a href="tel:812-530-7417" style="color: inherit; text-decoration: none;">
+                <i class="fa-solid fa-mobile" style="color: #000000; font-size: 2.5em;"></i>
+                <h1 class="display-4" style="font-size: 2.5em; display: inline-block;">&nbspPhone</h1>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </section>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </body>
 
 
 
   <footer>
-    <p>Portfolio page created by Patrick Williams</p>
+    <br>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    Made by Patrick Williams
+    </div>
   </footer>
 
 </html>

@@ -4,3 +4,7 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: linear-gradient(62deg, #fff7ed, #fff7ed);
+}
+
